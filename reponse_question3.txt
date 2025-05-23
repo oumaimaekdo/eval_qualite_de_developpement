@@ -1,0 +1,12 @@
+1 - Comment interpréter ce résultat ?
+
+Ce résultat indique que les méthodes add, div et minus ont été couvertes à 100 %.
+On remarque que la méthode div() contient une branche conditionnelle (le if qui teste si le dénominateur est nul) a bien été parcourue, ce qui signifie que le cas d’une division par zéro a été correctement pris en compte dans les tests. 
+
+En revanche, aucune instruction de la méthode mult() n’a été exécutée par les tests. 
+
+
+
+2 - Que faut-il faire pour améliorer ce résultat ?
+
+Pour améliorer ce résultat, il faut ajouter un test pour la méthode mult() afin de couvrir toutes les méthodes de la classe Calculatrice.
